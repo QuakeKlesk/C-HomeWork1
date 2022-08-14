@@ -5,9 +5,9 @@ Console.WriteLine("Введите второе число для сравнен�
 int number2 = Convert.ToInt32(Console.ReadLine());
 if (number1 > number2)
 {
-    Console.WriteLine(Convert.ToString(number1), " больше чем число ", Convert.ToString(number2));
+    Console.WriteLine(number1 + " больше чем " + number2);
 }
 else
 {
-    Console.WriteLine(Convert.ToString(number2), " больше чем число ", Convert.ToString(number1));
+    Console.WriteLine(number2 + " больше чем " + number1);
 }
