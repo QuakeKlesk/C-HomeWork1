@@ -43,11 +43,11 @@ else
     Console.WriteLine("нет");
 }*/
 
-// ЗАДАЧА 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+/* // ЗАДАЧА 8: Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
 
 Console.WriteLine("Введите число");
 int num = Convert.ToInt32(Console.ReadLine());
-int index = 0;
+int index = 1;
 while (index <= num)
 {
     if (index % 2 == 0)
@@ -56,3 +56,20 @@ while (index <= num)
     }
     index++;
 }
+*/
+
+/* // Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
+
+Console.WriteLine("Введите трехзначное число");
+string num = Console.ReadLine();
+Console.WriteLine(num[1]);*/
+
+
+Console.WriteLine("Введите трехзначное число");
+string num = Console.ReadLine();
+Console.WriteLine(num[1]);
+if (num == void)
+{
+    Console.WriteLine("цифры нет");
+}
+
